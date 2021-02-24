@@ -5,4 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
+color: string;
+  
+
+setColor(color: string) {
+  this.color = color;
+}
+
+onClick() {
+  console.log('click');
+}
+
 }
